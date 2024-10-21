@@ -1,6 +1,7 @@
 ﻿using Core.Entities;
-using Core.Repositories;
 using Microsoft.EntityFrameworkCore;
+namespace Core.Repositories;
+
 public class EfRepositoryBase<TContext, TEntity, TId> : IRepository<TEntity, TId>
     where TEntity : Entity<TId>, new()
     where TContext : DbContext

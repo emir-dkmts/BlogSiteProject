@@ -3,6 +3,6 @@ using Core.Repositories;
 
 namespace BlogSite.DataAccess.Abstracts;
 
-public interface IPostRepository : IRepository<Post,Guid>
+public interface IUserRepository : IRepository<User,long >
 {
 }

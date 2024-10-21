@@ -2,7 +2,7 @@
 using Core.Repositories;
 
 namespace BlogSite.DataAccess.Abstracts;
+    public interface ICategoryRepository : IRepository<Category, int>
+    {
 
-public interface IPostRepository : IRepository<Post,Guid>
-{
-}
+    }
